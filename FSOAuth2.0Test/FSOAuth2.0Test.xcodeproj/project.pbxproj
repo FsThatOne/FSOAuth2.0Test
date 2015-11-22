@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB7F5D4C8C422563C4AC4AD /* Pods_FSOAuth2_0Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2ED9600620DDFA63B2D6DC /* Pods_FSOAuth2_0Test.framework */; };
+		B6CFB0631C01EEE7008EF0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFB0621C01EEE7008EF0EE /* AppDelegate.swift */; };
+		B6CFB0651C01EEE8008EF0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFB0641C01EEE8008EF0EE /* ViewController.swift */; };
+		B6CFB0681C01EEE8008EF0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CFB0661C01EEE8008EF0EE /* Main.storyboard */; };
+		B6CFB06A1C01EEE8008EF0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6CFB0691C01EEE8008EF0EE /* Assets.xcassets */; };
+		B6CFB06D1C01EEE8008EF0EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CFB06B1C01EEE8008EF0EE /* LaunchScreen.storyboard */; };
+		B6CFB0781C01EEE8008EF0EE /* FSOAuth2_0TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFB0771C01EEE8008EF0EE /* FSOAuth2_0TestTests.swift */; };
+		B6CFB0831C01EEE9008EF0EE /* FSOAuth2_0TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFB0821C01EEE9008EF0EE /* FSOAuth2_0TestUITests.swift */; };
+		B6CFB0911C020821008EF0EE /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CFB0901C020821008EF0EE /* NetworkTools.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6CFB0741C01EEE8008EF0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CFB0571C01EEE7008EF0EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CFB05E1C01EEE7008EF0EE;
+			remoteInfo = FSOAuth2.0Test;
+		};
+		B6CFB07F1C01EEE8008EF0EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6CFB0571C01EEE7008EF0EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6CFB05E1C01EEE7008EF0EE;
+			remoteInfo = FSOAuth2.0Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F2ED9600620DDFA63B2D6DC /* Pods_FSOAuth2_0Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSOAuth2_0Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CFB05F1C01EEE7008EF0EE /* FSOAuth2.0Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSOAuth2.0Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CFB0621C01EEE7008EF0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6CFB0641C01EEE8008EF0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6CFB0671C01EEE8008EF0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6CFB0691C01EEE8008EF0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6CFB06C1C01EEE8008EF0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6CFB06E1C01EEE8008EF0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CFB0731C01EEE8008EF0EE /* FSOAuth2.0TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSOAuth2.0TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CFB0771C01EEE8008EF0EE /* FSOAuth2_0TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSOAuth2_0TestTests.swift; sourceTree = "<group>"; };
+		B6CFB0791C01EEE8008EF0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CFB07E1C01EEE8008EF0EE /* FSOAuth2.0TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSOAuth2.0TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6CFB0821C01EEE9008EF0EE /* FSOAuth2_0TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSOAuth2_0TestUITests.swift; sourceTree = "<group>"; };
+		B6CFB0841C01EEE9008EF0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CFB0901C020821008EF0EE /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		B7B2CC9FCB2542391FC75C48 /* Pods-FSOAuth2.0Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSOAuth2.0Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSOAuth2.0Test/Pods-FSOAuth2.0Test.debug.xcconfig"; sourceTree = "<group>"; };
+		FC567BF6FC25FF6E23A97720 /* Pods-FSOAuth2.0Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSOAuth2.0Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSOAuth2.0Test/Pods-FSOAuth2.0Test.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6CFB05C1C01EEE7008EF0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB7F5D4C8C422563C4AC4AD /* Pods_FSOAuth2_0Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CFB0701C01EEE8008EF0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CFB07B1C01EEE8008EF0EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		555985D825D6E546A314937E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2ED9600620DDFA63B2D6DC /* Pods_FSOAuth2_0Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6CFB0561C01EEE7008EF0EE = {
+			isa = PBXGroup;
+			children = (
+				B6CFB0611C01EEE7008EF0EE /* FSOAuth2.0Test */,
+				B6CFB0761C01EEE8008EF0EE /* FSOAuth2.0TestTests */,
+				B6CFB0811C01EEE9008EF0EE /* FSOAuth2.0TestUITests */,
+				B6CFB0601C01EEE7008EF0EE /* Products */,
+				B852FE78AE4748D6196C869F /* Pods */,
+				555985D825D6E546A314937E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6CFB0601C01EEE7008EF0EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6CFB05F1C01EEE7008EF0EE /* FSOAuth2.0Test.app */,
+				B6CFB0731C01EEE8008EF0EE /* FSOAuth2.0TestTests.xctest */,
+				B6CFB07E1C01EEE8008EF0EE /* FSOAuth2.0TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6CFB0611C01EEE7008EF0EE /* FSOAuth2.0Test */ = {
+			isa = PBXGroup;
+			children = (
+				B6CFB0901C020821008EF0EE /* NetworkTools.swift */,
+				B6CFB0621C01EEE7008EF0EE /* AppDelegate.swift */,
+				B6CFB0641C01EEE8008EF0EE /* ViewController.swift */,
+				B6CFB0661C01EEE8008EF0EE /* Main.storyboard */,
+				B6CFB0691C01EEE8008EF0EE /* Assets.xcassets */,
+				B6CFB06B1C01EEE8008EF0EE /* LaunchScreen.storyboard */,
+				B6CFB06E1C01EEE8008EF0EE /* Info.plist */,
+			);
+			path = FSOAuth2.0Test;
+			sourceTree = "<group>";
+		};
+		B6CFB0761C01EEE8008EF0EE /* FSOAuth2.0TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6CFB0771C01EEE8008EF0EE /* FSOAuth2_0TestTests.swift */,
+				B6CFB0791C01EEE8008EF0EE /* Info.plist */,
+			);
+			path = FSOAuth2.0TestTests;
+			sourceTree = "<group>";
+		};
+		B6CFB0811C01EEE9008EF0EE /* FSOAuth2.0TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6CFB0821C01EEE9008EF0EE /* FSOAuth2_0TestUITests.swift */,
+				B6CFB0841C01EEE9008EF0EE /* Info.plist */,
+			);
+			path = FSOAuth2.0TestUITests;
+			sourceTree = "<group>";
+		};
+		B852FE78AE4748D6196C869F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7B2CC9FCB2542391FC75C48 /* Pods-FSOAuth2.0Test.debug.xcconfig */,
+				FC567BF6FC25FF6E23A97720 /* Pods-FSOAuth2.0Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6CFB05E1C01EEE7008EF0EE /* FSOAuth2.0Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CFB0871C01EEE9008EF0EE /* Build configuration list for PBXNativeTarget "FSOAuth2.0Test" */;
+			buildPhases = (
+				4EDF4338DAE3C6C17B72EC6E /* Check Pods Manifest.lock */,
+				B6CFB05B1C01EEE7008EF0EE /* Sources */,
+				B6CFB05C1C01EEE7008EF0EE /* Frameworks */,
+				B6CFB05D1C01EEE7008EF0EE /* Resources */,
+				49393AAB4C0CCC48A52583E5 /* Embed Pods Frameworks */,
+				E1D0E80765B9B789E38E1D33 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSOAuth2.0Test;
+			productName = FSOAuth2.0Test;
+			productReference = B6CFB05F1C01EEE7008EF0EE /* FSOAuth2.0Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6CFB0721C01EEE8008EF0EE /* FSOAuth2.0TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CFB08A1C01EEE9008EF0EE /* Build configuration list for PBXNativeTarget "FSOAuth2.0TestTests" */;
+			buildPhases = (
+				B6CFB06F1C01EEE8008EF0EE /* Sources */,
+				B6CFB0701C01EEE8008EF0EE /* Frameworks */,
+				B6CFB0711C01EEE8008EF0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CFB0751C01EEE8008EF0EE /* PBXTargetDependency */,
+			);
+			name = FSOAuth2.0TestTests;
+			productName = FSOAuth2.0TestTests;
+			productReference = B6CFB0731C01EEE8008EF0EE /* FSOAuth2.0TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6CFB07D1C01EEE8008EF0EE /* FSOAuth2.0TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CFB08D1C01EEE9008EF0EE /* Build configuration list for PBXNativeTarget "FSOAuth2.0TestUITests" */;
+			buildPhases = (
+				B6CFB07A1C01EEE8008EF0EE /* Sources */,
+				B6CFB07B1C01EEE8008EF0EE /* Frameworks */,
+				B6CFB07C1C01EEE8008EF0EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6CFB0801C01EEE8008EF0EE /* PBXTargetDependency */,
+			);
+			name = FSOAuth2.0TestUITests;
+			productName = FSOAuth2.0TestUITests;
+			productReference = B6CFB07E1C01EEE8008EF0EE /* FSOAuth2.0TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6CFB0571C01EEE7008EF0EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FSxiaoyi;
+				TargetAttributes = {
+					B6CFB05E1C01EEE7008EF0EE = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+					};
+					B6CFB0721C01EEE8008EF0EE = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+						TestTargetID = B6CFB05E1C01EEE7008EF0EE;
+					};
+					B6CFB07D1C01EEE8008EF0EE = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YHAR24Y35Q;
+						TestTargetID = B6CFB05E1C01EEE7008EF0EE;
+					};
+				};
+			};
+			buildConfigurationList = B6CFB05A1C01EEE7008EF0EE /* Build configuration list for PBXProject "FSOAuth2.0Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6CFB0561C01EEE7008EF0EE;
+			productRefGroup = B6CFB0601C01EEE7008EF0EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6CFB05E1C01EEE7008EF0EE /* FSOAuth2.0Test */,
+				B6CFB0721C01EEE8008EF0EE /* FSOAuth2.0TestTests */,
+				B6CFB07D1C01EEE8008EF0EE /* FSOAuth2.0TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6CFB05D1C01EEE7008EF0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CFB06D1C01EEE8008EF0EE /* LaunchScreen.storyboard in Resources */,
+				B6CFB06A1C01EEE8008EF0EE /* Assets.xcassets in Resources */,
+				B6CFB0681C01EEE8008EF0EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CFB0711C01EEE8008EF0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CFB07C1C01EEE8008EF0EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49393AAB4C0CCC48A52583E5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSOAuth2.0Test/Pods-FSOAuth2.0Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EDF4338DAE3C6C17B72EC6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D0E80765B9B789E38E1D33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FSOAuth2.0Test/Pods-FSOAuth2.0Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6CFB05B1C01EEE7008EF0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CFB0651C01EEE8008EF0EE /* ViewController.swift in Sources */,
+				B6CFB0631C01EEE7008EF0EE /* AppDelegate.swift in Sources */,
+				B6CFB0911C020821008EF0EE /* NetworkTools.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CFB06F1C01EEE8008EF0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CFB0781C01EEE8008EF0EE /* FSOAuth2_0TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CFB07A1C01EEE8008EF0EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6CFB0831C01EEE9008EF0EE /* FSOAuth2_0TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6CFB0751C01EEE8008EF0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CFB05E1C01EEE7008EF0EE /* FSOAuth2.0Test */;
+			targetProxy = B6CFB0741C01EEE8008EF0EE /* PBXContainerItemProxy */;
+		};
+		B6CFB0801C01EEE8008EF0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6CFB05E1C01EEE7008EF0EE /* FSOAuth2.0Test */;
+			targetProxy = B6CFB07F1C01EEE8008EF0EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6CFB0661C01EEE8008EF0EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CFB0671C01EEE8008EF0EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6CFB06B1C01EEE8008EF0EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6CFB06C1C01EEE8008EF0EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6CFB0851C01EEE9008EF0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6CFB0861C01EEE9008EF0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6CFB0881C01EEE9008EF0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B2CC9FCB2542391FC75C48 /* Pods-FSOAuth2.0Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSOAuth2.0Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fsymbio.FSOAuth2-0Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6CFB0891C01EEE9008EF0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC567BF6FC25FF6E23A97720 /* Pods-FSOAuth2.0Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSOAuth2.0Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fsymbio.FSOAuth2-0Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6CFB08B1C01EEE9008EF0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSOAuth2.0TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fsymbio.FSOAuth2-0TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSOAuth2.0Test.app/FSOAuth2.0Test";
+			};
+			name = Debug;
+		};
+		B6CFB08C1C01EEE9008EF0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FSOAuth2.0TestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fsymbio.FSOAuth2-0TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSOAuth2.0Test.app/FSOAuth2.0Test";
+			};
+			name = Release;
+		};
+		B6CFB08E1C01EEE9008EF0EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSOAuth2.0TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fsymbio.FSOAuth2-0TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSOAuth2.0Test;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B6CFB08F1C01EEE9008EF0EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FSOAuth2.0TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fsymbio.FSOAuth2-0TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FSOAuth2.0Test;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6CFB05A1C01EEE7008EF0EE /* Build configuration list for PBXProject "FSOAuth2.0Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CFB0851C01EEE9008EF0EE /* Debug */,
+				B6CFB0861C01EEE9008EF0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CFB0871C01EEE9008EF0EE /* Build configuration list for PBXNativeTarget "FSOAuth2.0Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CFB0881C01EEE9008EF0EE /* Debug */,
+				B6CFB0891C01EEE9008EF0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CFB08A1C01EEE9008EF0EE /* Build configuration list for PBXNativeTarget "FSOAuth2.0TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CFB08B1C01EEE9008EF0EE /* Debug */,
+				B6CFB08C1C01EEE9008EF0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CFB08D1C01EEE9008EF0EE /* Build configuration list for PBXNativeTarget "FSOAuth2.0TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6CFB08E1C01EEE9008EF0EE /* Debug */,
+				B6CFB08F1C01EEE9008EF0EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6CFB0571C01EEE7008EF0EE /* Project object */;
+}
