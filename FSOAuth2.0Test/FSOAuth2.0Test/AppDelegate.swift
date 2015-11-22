@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FSOAuth2.0Test
 //
-//  Created by FS小一 on 15/11/22.
+//  Created by FS小一 on 15/9/22.
 //  Copyright © 2015年 FSxiaoyi. All rights reserved.
 //
 
